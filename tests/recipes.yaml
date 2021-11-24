@@ -1,0 +1,31 @@
+--- # -----------------------------------------------------------
+# Dough ---------------------------------------------------------
+dough:
+    Neapolitan:
+        flour: "1000 g"
+        water: "600 ml"
+        salt: "30 g"
+        yeast: "2 g"
+    New York:
+        flour: "630 g"
+        water: "420 ml"
+        salt: "10 g"
+        yeast: "32 g"
+        olive_oil: "10 g"
+
+# -------------------------------------------------------------------
+# Pizza -------------------------------------------------------------
+pizza:
+    Margarita:
+        tomato: "100 g"
+        cheese: "90 g"
+    Vegetarian:
+        tomato: "80 g"
+        cheese: "60 g"
+        mushroom: "25 g"
+        onion: "25 g"
+        pepper: "25 g"
+    Pepperoni:
+        tomato: "80 g"
+        cheese: "80 g"
+        pepperoni: "50 g"
