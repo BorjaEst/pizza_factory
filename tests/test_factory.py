@@ -1,6 +1,6 @@
 """Pytest module to test sources as blackbox."""
 import yaml
-from pizza_factory import Factory
+from pizza_factory import Factory, Machine
 from pytest import fixture, raises
 
 
@@ -31,6 +31,10 @@ class TestFactory:
         assert factory.recipes == recipes
         assert "dough" in factory.recipes
         assert "pizza" in factory.recipes
+
+    def test_machine(self, factory):
+        assert hasattr(factory, "machine")
+        assert type(factory.machine) == Machine
 
 
 class TestMissingLocation:

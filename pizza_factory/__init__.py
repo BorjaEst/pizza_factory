@@ -1,4 +1,4 @@
-__all__ = ["Factory", "Pizza"]
+__all__ = ["Factory", "Machine", "Pizza"]
 
 
 class Factory:
@@ -9,6 +9,10 @@ class Factory:
     def make(self, order, name):
         toppings = self.recipes["pizza"][name]
         return order(name, toppings)
+
+
+class Machine:
+    pass
 
 
 class Pizza:
