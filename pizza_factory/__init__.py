@@ -5,6 +5,7 @@ class Factory:
     def __init__(self, location, recipes) -> None:
         self.location = location
         self.recipes = recipes
+        self.machine = Machine()
 
     def make(self, order, name):
         toppings = self.recipes["pizza"][name]
@@ -12,7 +13,8 @@ class Factory:
 
 
 class Machine:
-    pass
+    def cook(self):
+        pass
 
 
 class Pizza:
