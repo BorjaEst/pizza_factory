@@ -4,10 +4,10 @@ __all__ = [
     "Cheese",
     "Onion",
     "Pepper",
-    "flour",
-    "water",
-    "salt",
-    "yeast",
+    "Flour",
+    "Water",
+    "Salt",
+    "Yeast",
 ]
 
 
